@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.apple.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>SSRF via iTunes elements</title>
+    <link>https://example.com</link>
+    <description>Tests if parser fetches URLs from iTunes RSS extensions</description>
+    <itunes:image href="http://169.254.169.254/computeMetadata/v1/instance/service-accounts/default/token"/>
+    <itunes:owner>
+      <itunes:name>test</itunes:name>
+      <itunes:email>test@test.com</itunes:email>
+    </itunes:owner>
+    <image>
+      <url>http://169.254.169.254/computeMetadata/v1/</url>
+      <title>test</title>
+      <link>https://example.com</link>
+    </image>
+    <item>
+      <title>test item</title>
+      <enclosure url="http://169.254.169.254/computeMetadata/v1/instance/hostname" type="audio/mpeg" length="1000"/>
+      <itunes:image href="http://metadata.google.internal/computeMetadata/v1/instance/hostname"/>
+    </item>
+  </channel>
+</rss>

