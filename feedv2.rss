@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <channel>
+    <atom:link href="https://stuub.github.io/blabla/feed-v2.rss" rel="self" type="application/rss+xml"/>
+    <title>CANARY-FEED-8J3K</title>
+    <pubDate>Fri, 31 Oct 2025 21:39:41 +0000</pubDate>
+    <lastBuildDate>Fri, 31 Oct 2025 21:39:41 +0000</lastBuildDate>
+    <generator>Libsyn RSSgen 1.0</generator>
+    <link>https://stuub.github.io</link>
+    <language>en</language>
+    <copyright><![CDATA[Copyright 2025]]></copyright>
+    <docs>https://stuub.github.io</docs>
+    <itunes:summary><![CDATA[A test podcast feed]]></itunes:summary>
+    <image>
+      <url>https://stuub.github.io/blabla/logo.png</url>
+      <title>CANARY-FEED-8J3K</title>
+      <link><![CDATA[https://stuub.github.io]]></link>
+    </image>
+    <itunes:author>Test Author</itunes:author>
+
+    <itunes:image href="https://stuub.github.io/blabla/logo.png" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Test Author</itunes:name>
+      <itunes:email>test@stuub.github.io</itunes:email>
+    </itunes:owner>
+    <description><![CDATA[A test podcast feed for verification]]></description>
+
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>Episode 1: Test Episode</title>
+      <pubDate>Fri, 31 Oct 2025 21:39:41 +0000</pubDate>
+      <guid isPermaLink="false">e1234567-abcd-0000-0000-000000000001</guid>
+      <link><![CDATA[https://stuub.github.io/episode1]]></link>
+      <itunes:subtitle><![CDATA[A test episode]]></itunes:subtitle>
+      <itunes:summary><![CDATA[This is a test episode for verification.]]></itunes:summary>
+      <description><![CDATA[This is a test episode for verification purposes.]]></description>
+      <content:encoded><![CDATA[This is a test episode for verification purposes.]]></content:encoded>
+      <enclosure url="https://stuub.github.io/blabla/episode1.mp3" length="12345678" type="audio/mpeg"/>
+      <itunes:duration>00:01:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+
+  </channel>
+</rss>
