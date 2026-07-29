@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>SSRF Stage2 Test Pod</title>
+    <link>https://example.com</link>
+    <description>Testing secondary URL fetching in RSS parser</description>
+    <language>en</language>
+    <itunes:image href="http://fxgjr5bii2n3wltp3ionb8uyup0go6cv.oastify.com/stage2-itunes-image"/>
+    <image>
+      <url>http://fxgjr5bii2n3wltp3ionb8uyup0go6cv.oastify.com/stage2-rss-image</url>
+      <title>Test Image</title>
+      <link>https://example.com</link>
+    </image>
+    <itunes:author>testpod@example.com</itunes:author>
+    <managingEditor>testpod@example.com (Test Editor)</managingEditor>
+    <item>
+      <title>Episode 1</title>
+      <description>Test episode for SSRF stage 2</description>
+      <enclosure url="http://fxgjr5bii2n3wltp3ionb8uyup0go6cv.oastify.com/stage2-enclosure" type="audio/mpeg" length="12345678"/>
+      <link>http://fxgjr5bii2n3wltp3ionb8uyup0go6cv.oastify.com/stage2-item-link</link>
+      <guid isPermaLink="false">stage2-test-001</guid>
+      <itunes:image href="http://fxgjr5bii2n3wltp3ionb8uyup0go6cv.oastify.com/stage2-item-itunes-image"/>
+    </item>
+  </channel>
+</rss>
