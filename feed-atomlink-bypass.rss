@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <channel>
+    <atom:link href="https://feeds.megaphone.fm/SSRF-BYPASS-TEST" rel="self" type="application/rss+xml"/>
+    <title>ATOMLINK-BYPASS-CANARY-8Z4Q</title>
+    <pubDate>Fri, 31 Oct 2025 21:39:41 +0000</pubDate>
+    <lastBuildDate>Fri, 31 Oct 2025 21:39:41 +0000</lastBuildDate>
+    <generator>Megaphone</generator>
+    <link>https://feeds.megaphone.fm</link>
+    <language>en</language>
+    <copyright><![CDATA[]]></copyright>
+    <docs>https://feeds.megaphone.fm</docs>
+    <itunes:summary><![CDATA[SSRF bypass test feed]]></itunes:summary>
+    <image>
+      <url></url>
+      <title>ATOMLINK-BYPASS-CANARY-8Z4Q</title>
+      <link><![CDATA[https://feeds.megaphone.fm]]></link>
+    </image>
+    <itunes:author>SSRF Tester</itunes:author>
+    <itunes:image href="" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>CANARY-NAME-7K3P</itunes:name>
+      <itunes:email>canary-email-9x2m@ssrf-test.com</itunes:email>
+    </itunes:owner>
+    <description><![CDATA[SSRF bypass test feed]]></description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:keywords />
+    <podcast:locked owner="">no</podcast:locked>
+
+    <item>
+      <title>Test Episode</title>
+      <itunes:title>Test Episode</itunes:title>
+      <pubDate>Fri, 20 Apr 2012 16:59:00 +0000</pubDate>
+      <guid isPermaLink="false"><![CDATA[a8c6cb18bea7726cbffb97564ceaf7a1]]></guid>
+      <link><![CDATA[https://feeds.megaphone.fm/test-episode]]></link>
+      <description><![CDATA[<p>A test episode.</p>]]></description>
+      <content:encoded><![CDATA[<p>A test episode.</p>]]></content:encoded>
+      <enclosure url="https://traffic.megaphone.fm/test/episode1.mp3" length="16919447" type="audio/mpeg" />
+      <itunes:duration>00:01:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+
+  </channel>
+</rss>
