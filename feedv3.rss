@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <channel>
+    <atom:link href="https://stuub.github.io/blabla/feed-v3.rss" rel="self" type="application/rss+xml"/>
+    <title>CANARY-V3-9X7Z</title>
+    <pubDate>Fri, 31 Oct 2025 21:39:41 +0000</pubDate>
+    <lastBuildDate>Fri, 31 Oct 2025 21:39:41 +0000</lastBuildDate>
+    <generator>Libsyn RSSgen 1.0</generator>
+    <link>http://www.asaonline.com</link>
+    <language></language>
+    <copyright><![CDATA[]]></copyright>
+    <docs>http://www.asaonline.com</docs>
+    <itunes:summary><![CDATA[Test feed for ASA]]></itunes:summary>
+    <image>
+      <url></url>
+      <title>CANARY-V3-9X7Z</title>
+      <link><![CDATA[http://www.asaonline.com]]></link>
+    </image>
+    <itunes:author></itunes:author>
+
+
+    <itunes:image href="" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name></itunes:name>
+      <itunes:email></itunes:email>
+    </itunes:owner>
+    <description><![CDATA[Test feed for ASA]]></description>
+
+    <itunes:type>episodic</itunes:type>
+
+
+    <itunes:keywords />
+
+
+    <podcast:locked owner="">no</podcast:locked>
+
+    <item>
+      <title>Test Episode One</title>
+      <itunes:title>Test Episode One</itunes:title>
+      <pubDate>Fri, 20 Apr 2012 16:59:00 +0000</pubDate>
+      <guid isPermaLink="false"><![CDATA[a8c6cb18bea7726cbffb97564ceaf7a1]]></guid>
+      <link><![CDATA[https://www.asaonline.com/eweb/dynamicpage.aspx?webcode=EventList]]></link>
+      <description><![CDATA[<p>A test episode description.</p>]]></description>
+      <content:encoded><![CDATA[<p>A test episode description.</p>]]></content:encoded>
+      <enclosure url="https://traffic.libsyn.com/secure/testfeed/Completed_Operations-2.wmv?dest-id=12772" length="16919447" type="video/x-ms-wmv" />
+      <itunes:duration>00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:keywords />
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+
+  </channel>
+</rss>
