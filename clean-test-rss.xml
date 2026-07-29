@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>CLEAN-TEST-CANARY-7X9Q</title>
+    <link>https://example.com</link>
+    <description>A totally normal podcast feed for testing</description>
+    <language>en</language>
+    <itunes:author>testauthor@example.com</itunes:author>
+    <managingEditor>testauthor@example.com (Test Author)</managingEditor>
+    <itunes:image href="https://stuub.github.io/blabla/logo.png"/>
+    <image>
+      <url>https://stuub.github.io/blabla/logo.png</url>
+      <title>Clean Test</title>
+      <link>https://example.com</link>
+    </image>
+    <item>
+      <title>Episode 1</title>
+      <description>A normal episode</description>
+      <enclosure url="https://stuub.github.io/blabla/episode1.mp3" type="audio/mpeg" length="12345678"/>
+      <link>https://example.com/episode1</link>
+      <guid isPermaLink="false">clean-test-001</guid>
+    </item>
+  </channel>
+</rss>
